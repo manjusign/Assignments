@@ -11,7 +11,7 @@ public class UserTemperature {
 		
 		user_temperature = sc.nextInt();
 		
-		if(user_temperature >= 40 && user_temperature < 80)
+		if(user_temperature > 40 && user_temperature < 80)
 		{
 			System.out.println("Temperature is normal");
 		}

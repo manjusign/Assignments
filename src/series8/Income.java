@@ -12,7 +12,7 @@ public class Income {
 		income_input = sc.nextInt();
 		
 		if(income_input >= 100000)
-		{
+		{	
 			System.out.println("You have a high income. Congrajulations!");
 		}
 		else if(income_input >= 50000)

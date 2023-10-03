@@ -11,7 +11,7 @@ public class HeartRate {
 		
 		heart_beat_rate = sc.nextInt();
 		
-		if(heart_beat_rate <= 30 || heart_beat_rate > 120)
+		if(heart_beat_rate < 30 || heart_beat_rate > 120)
 		{
 			System.out.println("Heart rate is abnormal");
 		}

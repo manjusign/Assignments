@@ -13,7 +13,7 @@ public class Phone {
 		
 		if(phone_price_input >= 80000)
 		{
-			System.out.println("phone is expensive");
+			System.out.println("phone is too expensive");
 		}
 		else
 		{
